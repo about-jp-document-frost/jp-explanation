@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Japan Guide & Q&A</title>
+    <meta
+      name="description"
+      content="日本関連のQ&Aと紹介ページをまとめた、GitHub Pages向けの静的サイトです。"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <a class="brand" href="index.html">Japan Guide & Q&A</a>
+        <nav class="nav-links">
+          <a href="#about">サイトについて</a>
+          <a href="#categories">カテゴリ</a>
+          <a href="document/index.html">ドキュメント一覧</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="hero">
+        <div class="hero-card">
+          <span class="badge">GitHub Pages Ready</span>
+          <h1>日本関連のQ&A・紹介サイト</h1>
+          <p class="lead">
+            日本の文化・生活・仕事について、初学者でも見やすい形でまとめた静的Webサイトです。
+            `index.html` から `document` 配下のページへそのまま移動できます。
+          </p>
+          <div class="actions">
+            <a class="button primary" href="document/index.html">Q&Aを見る</a>
+            <a class="button secondary" href="#categories">カテゴリ一覧</a>
+          </div>
+          <div class="chips">
+            <span class="chip">日本文化</span>
+            <span class="chip">生活情報</span>
+            <span class="chip">仕事・就職</span>
+            <span class="chip">教育・社会</span>
+            <span class="chip">静的サイト</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="card">
+          <h2>このサイトでできること</h2>
+          <ul>
+            <li>`document/index.html` から各カテゴリページへ移動</li>
+            <li>日本に関する基本的なQ&Aをカテゴリ別に閲覧</li>
+            <li>GitHub Pages でそのまま公開可能</li>
+          </ul>
+          <p class="note">
+            すべて相対パスでリンクしているため、リポジトリのGitHub Pagesでもローカル確認でも動作しやすい構成です。
+          </p>
+        </div>
+      </section>
+
+      <section class="section" id="categories">
+        <h2>カテゴリ</h2>
+        <div class="grid">
+          <article class="card">
+            <h3>文化</h3>
+            <p>あいさつ、マナー、季節、食文化など、日本文化の基本を紹介します。</p>
+            <a class="button secondary" href="document/culture/index.html">文化ページへ</a>
+          </article>
+          <article class="card">
+            <h3>生活</h3>
+            <p>交通、買い物、ゴミ出し、緊急時対応など、生活に役立つ情報をまとめています。</p>
+            <a class="button secondary" href="document/life/index.html">生活ページへ</a>
+          </article>
+          <article class="card">
+            <h3>仕事</h3>
+            <p>面接準備、ビジネスマナー、働くときのポイントを掲載しています。</p>
+            <a class="button secondary" href="document/work/index.html">仕事ページへ</a>
+          </article>
+          <article class="card">
+            <h3>教育・社会</h3>
+            <p>語学学習、教育制度、社会行動、海外志向などに関する内容をまとめています。</p>
+            <a class="button secondary" href="document/education/index.html">教育ページへ</a>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">© 2026 Japan Guide & Q&A - Built for GitHub Pages</div>
+    </footer>
+  </body>
+</html>

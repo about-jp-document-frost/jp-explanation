@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{CATEGORY_TITLE}} | Japan Guide & Q&A</title>
+    <meta
+      name="description"
+      content="{{CATEGORY_DESCRIPTION}}"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <a class="brand" href="../index.html">Japan Guide & Q&A</a>
+        <nav class="nav-links">
+          <a href="../document/index.html">Documents</a>
+          <a href="../index.html">Home</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="hero">
+        <div class="hero-card">
+          <span class="badge">{{BADGE_TEXT}}</span>
+          <p class="breadcrumb">Home / Documents / {{CATEGORY_TITLE}}</p>
+          <h1>{{CATEGORY_TITLE}}</h1>
+          <p class="lead">{{LEAD_TEXT}}</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="grid">
+          <article class="card">
+            <h2>{{ARTICLE_TITLE_1}}</h2>
+            <p>{{ARTICLE_DESCRIPTION_1}}</p>
+            <a class="button secondary" href="{{ARTICLE_LINK_1}}">Open article</a>
+          </article>
+
+          <article class="card">
+            <h2>{{ARTICLE_TITLE_2}}</h2>
+            <p>{{ARTICLE_DESCRIPTION_2}}</p>
+            <a class="button secondary" href="{{ARTICLE_LINK_2}}">Open article</a>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">{{CATEGORY_TITLE}} Page</div>
+    </footer>
+  </body>
+</html>
