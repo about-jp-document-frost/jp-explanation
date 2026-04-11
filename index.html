@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Japan Guide & Q&A</title>
     <meta
       name="description"
-      content="日本関連のQ&Aと紹介ページをまとめた、GitHub Pages向けの静的サイトです。"
+      content="A GitHub Pages-ready static site with Q&A and guides about life, culture, work, and education in Japan."
     />
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -15,72 +15,146 @@
       <div class="container nav">
         <a class="brand" href="index.html">Japan Guide & Q&A</a>
         <nav class="nav-links">
-          <a href="#about">サイトについて</a>
-          <a href="#categories">カテゴリ</a>
-          <a href="document/index.html">ドキュメント一覧</a>
+          <a href="#about">About</a>
+          <a href="#categories">Categories</a>
+          <a href="document/index.html">Document Hub</a>
         </nav>
       </div>
     </header>
 
     <main class="container">
       <section class="hero">
-        <div class="hero-card">
-          <span class="badge">GitHub Pages Ready</span>
-          <h1>日本関連のQ&A・紹介サイト</h1>
-          <p class="lead">
-            日本の文化・生活・仕事について、初学者でも見やすい形でまとめた静的Webサイトです。
-            `index.html` から `document` 配下のページへそのまま移動できます。
-          </p>
-          <div class="actions">
-            <a class="button primary" href="document/index.html">Q&Aを見る</a>
-            <a class="button secondary" href="#categories">カテゴリ一覧</a>
-          </div>
-          <div class="chips">
-            <span class="chip">日本文化</span>
-            <span class="chip">生活情報</span>
-            <span class="chip">仕事・就職</span>
-            <span class="chip">教育・社会</span>
-            <span class="chip">静的サイト</span>
-          </div>
+        <div class="magazine-grid">
+          <article class="hero-card lead-story">
+            <span class="badge">Feature Edition</span>
+            <p class="breadcrumb">Japan Guide / Culture / Life / Work / Education</p>
+            <h1>Q&A and Guides About Japan</h1>
+            <p class="lead">
+              This magazine-style homepage introduces Japanese culture, daily life, work, and education in a format that is easy to browse.
+              From here, you can jump directly into the `document` section and explore practical English articles and Q&A.
+            </p>
+            <div class="actions">
+              <a class="button primary" href="document/index.html">Open Document Hub</a>
+              <a class="button secondary" href="#categories">Browse Categories</a>
+            </div>
+            <div class="chips">
+              <span class="chip">Japanese Culture</span>
+              <span class="chip">Daily Life</span>
+              <span class="chip">Work & Careers</span>
+              <span class="chip">Education & Society</span>
+              <span class="chip">GitHub Pages</span>
+            </div>
+            <div class="stats-strip">
+              <div class="stat-pill"><strong>4</strong><span>Main themes</span></div>
+              <div class="stat-pill"><strong>English</strong><span>Site-wide navigation</span></div>
+              <div class="stat-pill"><strong>Static</strong><span>Fast and lightweight</span></div>
+            </div>
+          </article>
+
+          <aside class="card editorial-panel">
+            <p class="section-label">Editor's Picks</p>
+            <h2>Start Here</h2>
+            <div class="mini-list">
+              <a class="mini-item" href="document/culture/index.html"><strong>Culture</strong><span>Manners, communication, and social distance</span></a>
+              <a class="mini-item" href="document/life/index.html"><strong>Life</strong><span>Housing, shopping, transport, and daily routines</span></a>
+              <a class="mini-item" href="document/work/index.html"><strong>Work</strong><span>Hiring, business culture, and workplace communication</span></a>
+              <a class="mini-item" href="document/education/index.html"><strong>Education</strong><span>Language learning and social structure in Japan</span></a>
+            </div>
+          </aside>
         </div>
       </section>
 
       <section class="section" id="about">
-        <div class="card">
-          <h2>このサイトでできること</h2>
-          <ul>
-            <li>`document/index.html` から各カテゴリページへ移動</li>
-            <li>日本に関する基本的なQ&Aをカテゴリ別に閲覧</li>
-            <li>GitHub Pages でそのまま公開可能</li>
-          </ul>
-          <p class="note">
-            すべて相対パスでリンクしているため、リポジトリのGitHub Pagesでもローカル確認でも動作しやすい構成です。
-          </p>
+        <div class="grid">
+          <article class="card">
+            <p class="section-label">Quick Overview</p>
+            <h2>What You Can Find Here</h2>
+            <ul>
+              <li>Navigate to each category page from the Document Hub</li>
+              <li>Browse practical Japan-related Q&A by topic</li>
+              <li>Use the site directly on GitHub Pages or in local preview</li>
+            </ul>
+            <p class="note">
+              All links use relative paths, so the site works smoothly both on GitHub Pages and in local previews.
+            </p>
+          </article>
+          <article class="card">
+            <p class="section-label">Editorial Note</p>
+            <h2>A Lightweight Reading Experience</h2>
+            <p>
+              The goal is to make the project feel closer to an online magazine: easy to scan, visually organized, and simple to move through by theme.
+            </p>
+            <a class="button secondary" href="document/index.html">Go to the Hub</a>
+          </article>
         </div>
       </section>
 
       <section class="section" id="categories">
-        <h2>カテゴリ</h2>
+        <h2>Browse by Category</h2>
+        <p class="lead">Each section has its own tone, color theme, and article collection.</p>
         <div class="grid">
-          <article class="card">
-            <h3>文化</h3>
-            <p>あいさつ、マナー、季節、食文化など、日本文化の基本を紹介します。</p>
-            <a class="button secondary" href="document/culture/index.html">文化ページへ</a>
+          <article class="card category-card">
+            <div class="card-thumb thumb-culture"></div>
+            <p class="section-label">Culture</p>
+            <h3>Culture</h3>
+            <p>Introductions to Japanese greetings, manners, seasonal customs, food culture, and communication styles.</p>
+            <a class="button secondary" href="document/culture/index.html">Open Culture</a>
           </article>
-          <article class="card">
-            <h3>生活</h3>
-            <p>交通、買い物、ゴミ出し、緊急時対応など、生活に役立つ情報をまとめています。</p>
-            <a class="button secondary" href="document/life/index.html">生活ページへ</a>
+          <article class="card category-card">
+            <div class="card-thumb thumb-life"></div>
+            <p class="section-label">Life</p>
+            <h3>Life</h3>
+            <p>Useful information about transportation, shopping, garbage rules, housing, and daily life in Japan.</p>
+            <a class="button secondary" href="document/life/index.html">Open Life</a>
           </article>
-          <article class="card">
-            <h3>仕事</h3>
-            <p>面接準備、ビジネスマナー、働くときのポイントを掲載しています。</p>
-            <a class="button secondary" href="document/work/index.html">仕事ページへ</a>
+          <article class="card category-card">
+            <div class="card-thumb thumb-work"></div>
+            <p class="section-label">Work</p>
+            <h3>Work</h3>
+            <p>Articles about interviews, business manners, work culture, and professional communication in Japan.</p>
+            <a class="button secondary" href="document/work/index.html">Open Work</a>
           </article>
-          <article class="card">
-            <h3>教育・社会</h3>
-            <p>語学学習、教育制度、社会行動、海外志向などに関する内容をまとめています。</p>
-            <a class="button secondary" href="document/education/index.html">教育ページへ</a>
+          <article class="card category-card">
+            <div class="card-thumb thumb-education"></div>
+            <p class="section-label">Education</p>
+            <h3>Education & Society</h3>
+            <p>Topics related to language learning, education systems, social behavior, and global awareness in Japan.</p>
+            <a class="button secondary" href="document/education/index.html">Open Education</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Featured Reads</h2>
+        <p class="lead">A few recommended entry points if you want a quick sense of life and culture in Japan.</p>
+        <div class="grid">
+          <article class="card feature-card">
+            <div class="card-thumb thumb-culture"></div>
+            <p class="section-label">Culture</p>
+            <h3>Why Some Japanese People May Seem Reserved Toward Foreigners</h3>
+            <p>A short introduction to caution, distance, and communication style in Japan.</p>
+            <a class="button secondary" href="document/culture/index.html">Read Feature</a>
+          </article>
+          <article class="card feature-card">
+            <div class="card-thumb thumb-life"></div>
+            <p class="section-label">Life</p>
+            <h3>Living in Japan with Limited Japanese</h3>
+            <p>How far English can help in daily life, and why a little Japanese still matters.</p>
+            <a class="button secondary" href="document/life/living-in-japan-with-limited-japanese.html">Read Feature</a>
+          </article>
+          <article class="card feature-card">
+            <div class="card-thumb thumb-work"></div>
+            <p class="section-label">Work</p>
+            <h3>Japanese IT Companies: Hiring and Work Culture</h3>
+            <p>An overview of workplace English, training culture, and hiring backgrounds.</p>
+            <a class="button secondary" href="document/work/it-company.html">Read Feature</a>
+          </article>
+          <article class="card feature-card">
+            <div class="card-thumb thumb-education"></div>
+            <p class="section-label">Education</p>
+            <h3>Language Learning and Social Behavior in Japan</h3>
+            <p>A broader look at schooling, memorization, and global awareness.</p>
+            <a class="button secondary" href="document/education/multiple-language-education.html">Read Feature</a>
           </article>
         </div>
       </section>
