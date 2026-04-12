@@ -411,6 +411,30 @@ p + p {
   background: linear-gradient(135deg, #efe5ff 0%, #e4d6ff 48%, #faf7ff 100%);
 }
 
+.thumb-jp-learning {
+  background: linear-gradient(135deg, #ffe9d9 0%, #ffdcbc 48%, #fff9f3 100%);
+}
+
+.category-card h3 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.category-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.7rem;
+  height: 1.7rem;
+  border-radius: 10px;
+  background: color-mix(in srgb, var(--theme-soft) 78%, #ffffff 22%);
+  border: 1px solid color-mix(in srgb, var(--theme-primary) 34%, #ffffff 66%);
+  font-size: 1rem;
+  line-height: 1;
+  flex: 0 0 auto;
+}
+
 .thumb-education::before {
   content: "📘";
 }
