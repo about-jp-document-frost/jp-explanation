@@ -49,7 +49,8 @@ window.SIDEBAR_CONFIG = {
       title: "Work",
       links: [
         ["document/work/index.html", "Index"],
-        ["document/work/it-company.html", "IT Company"]
+        ["document/work/it-company.html", "IT Company"],
+        ["document/work/black-company.html", "Black Company"]
       ]
     }
   ]
