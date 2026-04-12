@@ -30,7 +30,7 @@ window.SIDEBAR_CONFIG = {
         ["document/education/english-education-japan.html", "English Education"],
         ["document/education/general-subjects.html", "General Subjects"],
         ["document/education/multiple-language-education.html", "Multiple Language"],
-        ["document/education/discussion-is-hated.html", "Discussion Culture"]
+        ["document/education/harmony-is-valued.html", "Discussion Culture"]
       ]
     },
     {

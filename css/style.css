@@ -83,9 +83,9 @@ body.theme-education {
   position: sticky;
   top: 0;
   z-index: 10;
-  background: rgba(255, 255, 255, 0.9);
+  background: #d4edda;
   backdrop-filter: blur(12px);
-  border-bottom: 1px solid rgba(217, 227, 240, 0.9);
+  border-bottom: 1px solid #a8d5b5;
   box-shadow: 0 8px 24px rgba(15, 23, 42, 0.04);
 }
 
@@ -585,6 +585,7 @@ footer {
   right: 14px;
   width: 270px;
   max-height: calc(100vh - 100px);
+  overflow-y: auto;
   z-index: 20;
 }
 
@@ -592,8 +593,6 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  height: 100%;
-  overflow: auto;
   padding: 12px;
   border-radius: 18px;
   border: 1px solid var(--border);
@@ -730,4 +729,50 @@ footer {
   .button {
     width: 100%;
   }
+}
+
+.table-wrap {
+  width: 100%;
+  overflow-x: auto;
+  margin-top: 12px;
+}
+
+.summary-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 640px;
+  background: linear-gradient(180deg, #fbfdff 0%, #f7faff 100%);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.summary-table th,
+.summary-table td {
+  padding: 12px 14px;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--border);
+}
+
+.summary-table th {
+  color: var(--theme-secondary);
+  background: var(--theme-soft);
+  font-weight: 700;
+}
+
+.summary-table tbody tr:last-child td {
+  border-bottom: none;
+}
+.summary-table td ul {
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+.summary-table td li + li {
+  margin-top: 0.25rem;
+}
+
+.section.card strong {
+  color: #d7263d;
 }
