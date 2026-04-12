@@ -15,16 +15,21 @@
       <div class="container nav">
         <a class="brand" href="index.html">Japan Guide & Q&A</a>
         <nav class="nav-links">
-          <a href="#about">About</a>
-          <a href="#categories">Categories</a>
+          <span class="nav-label">Categories</span>
+          <a href="document/culture/index.html">Culture</a>
+          <a href="document/device/browser.html">Device</a>
+          <a href="document/education/index.html">Education</a>
+          <a href="document/jp-learning/index.html">JP Learning</a>
+          <a href="document/life/index.html">Life</a>
+          <a href="document/work/index.html">Work</a>
+          <a href="index.html">Home</a>
         </nav>
       </div>
     </header>
 
     <main class="container">
-      <section class="hero">
-        <div class="magazine-grid">
-          <article class="hero-card lead-story">
+      <section class="hero" id="about">
+          <article class="hero-card lead-story homepage-hero">
             <span class="badge">Feature Edition</span>
             <p class="breadcrumb">Japan Guide / Culture / Life / Work / Education</p>
             <h1>Q&A and Guides About Japan</h1>
@@ -32,26 +37,21 @@
               This magazine-style homepage introduces Japanese culture, daily life, work, and education in a format that is easy to browse.
               From here, you can browse each category directly and explore practical English articles and Q&A.
             </p>
+            <div class="hero-summary">
+              <p class="section-label">Quick Overview</p>
+              <ul>
+                <li>Navigate directly to each category page</li>
+                <li>Browse practical Japan-related Q&A by topic</li>
+                <li>Use the site directly on GitHub Pages or in local preview</li>
+              </ul>
+              <p class="note">
+                All links use relative paths, so the site works smoothly both on GitHub Pages and in local previews.
+              </p>
+            </div>
             <div class="actions">
               <a class="button primary" href="#categories">Browse Categories</a>
             </div>
           </article>
-        </div>
-      </section>
-
-      <section class="section" id="about">
-        <article class="card">
-          <p class="section-label">Quick Overview</p>
-          <h2>What You Can Find Here</h2>
-          <ul>
-            <li>Navigate directly to each category page</li>
-            <li>Browse practical Japan-related Q&A by topic</li>
-            <li>Use the site directly on GitHub Pages or in local preview</li>
-          </ul>
-          <p class="note">
-            All links use relative paths, so the site works smoothly both on GitHub Pages and in local previews.
-          </p>
-        </article>
       </section>
 
       <section class="section" id="categories">
