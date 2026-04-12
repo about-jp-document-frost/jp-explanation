@@ -50,6 +50,9 @@ window.SIDEBAR_CONFIG = {
       title: "Work",
       links: [
         ["document/work/index.html", "Index"],
+        ["document/work/internship.html", "Why No Internships"],
+        ["document/work/general.html", "No Work Experience"],
+        ["document/work/hardship-to-work-in-foreign-country.html", "Working Abroad"],
         ["document/work/it-company.html", "IT Company"],
         ["document/work/black-company.html", "Black Company"]
       ]

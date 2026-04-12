@@ -776,3 +776,39 @@ footer {
 .section.card strong {
   color: #d7263d;
 }
+/* Readability tuning for wide summary tables */
+.summary-table {
+  min-width: 980px;
+}
+
+.summary-table th,
+.summary-table td {
+  line-height: 1.55;
+}
+
+.summary-table th {
+  white-space: nowrap;
+}
+
+.summary-table tbody tr:nth-child(even) {
+  background: rgba(233, 241, 252, 0.38);
+}
+
+.summary-table td:first-child {
+  min-width: 160px;
+  font-weight: 700;
+}
+
+.summary-table td:nth-child(2) {
+  min-width: 360px;
+}
+
+.summary-table th:nth-child(n + 3),
+.summary-table td:nth-child(n + 3) {
+  text-align: center;
+  white-space: nowrap;
+}
+
+.summary-table td ul {
+  margin: 0.35rem 0 0;
+}
