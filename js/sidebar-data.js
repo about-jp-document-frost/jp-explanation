@@ -1,7 +1,6 @@
 window.SIDEBAR_CONFIG = {
   topLinks: [
-    ["index.html", "Home"],
-    ["document/index.html", "Document Hub"]
+    ["index.html", "Home"]
   ],
   groups: [
     {
@@ -33,6 +32,16 @@ window.SIDEBAR_CONFIG = {
         ["document/education/harmony-is-valued.html", "Discussion Culture"]
       ]
     },
+      {
+        key: "jp-learning",
+        title: "JP Learning",
+        links: [
+          ["document/jp-learning/index.html", "Index"],
+          ["document/jp-learning/greeting.html", "Greetings"],
+          ["document/jp-learning/call-someone.html", "How to Call Someone"],
+          ["document/jp-learning/call-yourself.html", "How to Call Yourself"]
+        ]
+      },
     {
       key: "life",
       title: "Life",

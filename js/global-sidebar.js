@@ -31,8 +31,7 @@
 
     return {
       topLinks: [
-        ['index.html', 'Home'],
-        ['document/index.html', 'Document Hub']
+        ['index.html', 'Home']
       ],
       groups: [
         {
@@ -60,7 +59,18 @@
             ['document/education/index.html', 'Index'],
             ['document/education/english-education-japan.html', 'English Education'],
             ['document/education/general-subjects.html', 'General Subjects'],
-            ['document/education/multiple-language-education.html', 'Multiple Language']
+            ['document/education/multiple-language-education.html', 'Multiple Language'],
+            ['document/education/harmony-is-valued.html', 'Discussion Culture']
+          ]
+        },
+        {
+          key: 'jp-learning',
+          title: 'JP Learning',
+          links: [
+            ['document/jp-learning/index.html', 'Index'],
+            ['document/jp-learning/greeting.html', 'Greetings'],
+            ['document/jp-learning/call-someone.html', 'How to Call Someone'],
+            ['document/jp-learning/call-yourself.html', 'How to Call Yourself']
           ]
         },
         {
@@ -80,7 +90,11 @@
           title: 'Work',
           links: [
             ['document/work/index.html', 'Index'],
-            ['document/work/it-company.html', 'IT Company']
+            ['document/work/internship.html', 'Why No Internships'],
+            ['document/work/general.html', 'No Work Experience'],
+            ['document/work/hardship-to-work-in-foreign-country.html', 'Working Abroad'],
+            ['document/work/it-company.html', 'IT Company'],
+            ['document/work/black-company.html', 'Black Company']
           ]
         }
       ]
