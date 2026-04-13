@@ -1,4 +1,9 @@
 (function () {
+  // Apply saved theme immediately to prevent flash
+  if (localStorage.getItem('theme') === 'dark') {
+    document.documentElement.classList.add('dark');
+  }
+
   function getBasePath() {
     var pathname = window.location.pathname;
 
@@ -47,6 +52,7 @@
           key: 'device',
           title: 'Device',
           links: [
+            ['document/device/index.html', 'Index'],
             ['document/device/browser.html', 'Browser'],
             ['document/device/pc-smartphone.html', 'PC & Smartphone'],
             ['document/device/entertainment.html', 'Entertainment']
@@ -149,4 +155,35 @@
   aside.appendChild(inner);
   document.body.appendChild(aside);
   document.body.classList.add('with-page-sidebar');
+
+  // Restore sidebar scroll position from sessionStorage
+  var SCROLL_KEY = 'sidebar-scroll';
+  var saved = sessionStorage.getItem(SCROLL_KEY);
+  if (saved !== null) {
+    requestAnimationFrame(function () {
+      aside.scrollTop = parseInt(saved, 10);
+    });
+  }
+
+  // Save sidebar scroll position on scroll
+  aside.addEventListener('scroll', function () {
+    sessionStorage.setItem(SCROLL_KEY, aside.scrollTop);
+  });
+
+  // Inject dark/light toggle button into header nav
+  var navEl = document.querySelector('.nav-links');
+  if (navEl) {
+    var btn = document.createElement('button');
+    btn.className = 'theme-toggle-btn';
+    btn.setAttribute('aria-label', 'Toggle dark mode');
+    btn.textContent = document.documentElement.classList.contains('dark') ? '☀️' : '🌙';
+
+    btn.addEventListener('click', function () {
+      var isDark = document.documentElement.classList.toggle('dark');
+      localStorage.setItem('theme', isDark ? 'dark' : 'light');
+      btn.textContent = isDark ? '☀️' : '🌙';
+    });
+
+    navEl.appendChild(btn);
+  }
 })();

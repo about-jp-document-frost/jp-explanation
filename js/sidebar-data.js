@@ -16,6 +16,7 @@ window.SIDEBAR_CONFIG = {
       key: "device",
       title: "Device",
       links: [
+        ["document/device/index.html", "Index"],
         ["document/device/browser.html", "Browser"],
         ["document/device/pc-smartphone.html", "PC & Smartphone"],
         ["document/device/entertainment.html", "Entertainment"]
