@@ -1,0 +1,38 @@
+{
+  "slug": "japanese-perceptions-of-foreigners",
+  "section": "country",
+  "sector": {
+    "id": "africa",
+    "label": "Africa"
+  },
+  "countries": [
+    {
+      "id": "eg",
+      "name": "Egypt",
+      "stereotypes": [
+        "ancient civilization",
+        "hospitable",
+        "desert and pyramids"
+      ]
+    },
+    {
+      "id": "za",
+      "name": "South Africa",
+      "stereotypes": [
+        "diverse",
+        "strong accents",
+        "wildlife",
+        "complex history"
+      ]
+    },
+    {
+      "id": "ke",
+      "name": "Kenya",
+      "stereotypes": [
+        "athletic (marathon stereotype)",
+        "nature and safari",
+        "friendly and warm"
+      ]
+    }
+  ]
+}

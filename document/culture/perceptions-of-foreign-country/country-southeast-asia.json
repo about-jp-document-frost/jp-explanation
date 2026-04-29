@@ -1,0 +1,60 @@
+{
+  "slug": "japanese-perceptions-of-foreigners",
+  "section": "country",
+  "sector": {
+    "id": "southeast-asia",
+    "label": "Southeast Asia"
+  },
+  "countries": [
+    {
+      "id": "ph",
+      "name": "Philippines",
+      "stereotypes": [
+        "cheerful and friendly",
+        "family-oriented",
+        "talk a lot and laugh loudly",
+        "speak English well",
+        "emotional and expressive"
+      ],
+      "notes": "This is shaped by hospitality industry interactions."
+    },
+    {
+      "id": "sg",
+      "name": "Singapore",
+      "stereotypes": [
+        "clean and strict",
+        "wealthy and modern",
+        "multicultural",
+        "hardworking",
+        "young and energetic",
+        "rapid economic growth"
+      ]
+    },
+    {
+      "id": "th",
+      "name": "Thailand",
+      "stereotypes": [
+        "relaxed and friendly",
+        "tourism-oriented",
+        "spiritual (Buddhism)",
+        "warm and welcoming"
+      ]
+    },
+    {
+      "id": "id",
+      "name": "Indonesia",
+      "stereotypes": [
+        "religious (Muslim-majority)",
+        "gentle and polite"
+      ]
+    },
+    {
+      "id": "my",
+      "name": "Malaysia",
+      "stereotypes": [
+        "multicultural",
+        "Muslim-majority but tolerant"
+      ]
+    }
+  ]
+}

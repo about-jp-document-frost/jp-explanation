@@ -1,0 +1,203 @@
+{
+  "slug": "japanese-perceptions-of-foreigners",
+  "section": "country",
+  "sector": {
+    "id": "eu",
+    "label": "Europe"
+  },
+  "countries": [
+    {
+      "id": "uk",
+      "name": "United Kingdom",
+      "stereotypes": [
+        "polite and calm",
+        "reserved and quiet",
+        "intellectual or sophisticated",
+        "dry sense of humor",
+        "ironic and sarcastic",
+        "tsundere-like"
+      ],
+      "notes": "This is influenced by British dramas and classical literature."
+    },
+    {
+      "id": "fr",
+      "name": "France",
+      "stereotypes": [
+        "fashionable and artistic",
+        "romantic",
+        "proud of their culture"
+      ],
+      "notes": "This stereotype is shaped by tourism and fashion media."
+    },
+    {
+      "id": "de",
+      "name": "Germany",
+      "stereotypes": [
+        "serious and disciplined",
+        "logical and efficient",
+        "punctual",
+        "strong engineering and research culture",
+        "precise and organized",
+        "tall and handsome"
+      ],
+      "notes": "This aligns with Japan's admiration for German technology and order."
+    },
+    {
+      "id": "ru",
+      "name": "Russia",
+      "stereotypes": [
+        "physically strong",
+        "drink vodka",
+        "emotionally reserved",
+        "mysterious or unpredictable",
+        "associated with AK-47 and military imagery in anime and games",
+        "recognizable Russian English accent"
+      ],
+      "notes": "These impressions come from limited contact and Cold War-era imagery."
+    },
+    {
+      "id": "it",
+      "name": "Italy",
+      "stereotypes": [
+        "passionate",
+        "fashionable",
+        "talkative",
+        "artistic",
+        "love food and family"
+      ]
+    },
+    {
+      "id": "es",
+      "name": "Spain",
+      "stereotypes": [
+        "cheerful and expressive",
+        "relaxed lifestyle",
+        "love festivals",
+        "passionate about football"
+      ]
+    },
+    {
+      "id": "pt",
+      "name": "Portugal",
+      "stereotypes": [
+        "calm and gentle",
+        "nostalgic or emotional (saudade image)",
+        "maritime history"
+      ]
+    },
+    {
+      "id": "nl",
+      "name": "Netherlands",
+      "stereotypes": [
+        "tall",
+        "liberal and open-minded",
+        "cyclists everywhere",
+        "direct communication"
+      ]
+    },
+    {
+      "id": "be",
+      "name": "Belgium",
+      "stereotypes": [
+        "chocolate and waffles",
+        "calm and polite",
+        "multilingual"
+      ]
+    },
+    {
+      "id": "ch",
+      "name": "Switzerland",
+      "stereotypes": [
+        "neutral and peaceful",
+        "wealthy",
+        "precise and orderly",
+        "mountains and nature"
+      ]
+    },
+    {
+      "id": "at",
+      "name": "Austria",
+      "stereotypes": [
+        "classical music",
+        "elegant and traditional",
+        "calm and polite"
+      ]
+    },
+    {
+      "id": "se",
+      "name": "Sweden",
+      "stereotypes": [
+        "tall and beautiful",
+        "gender equality",
+        "minimalist",
+        "calm and rational"
+      ]
+    },
+    {
+      "id": "no",
+      "name": "Norway",
+      "stereotypes": [
+        "wealthy",
+        "nature-oriented",
+        "calm and introverted",
+        "high living standards"
+      ]
+    },
+    {
+      "id": "dk",
+      "name": "Denmark",
+      "stereotypes": [
+        "hygge lifestyle",
+        "friendly but reserved",
+        "design-oriented"
+      ]
+    },
+    {
+      "id": "fi",
+      "name": "Finland",
+      "stereotypes": [
+        "quiet and introverted",
+        "honest and sincere",
+        "sauna culture",
+        "similar to Japan in personality"
+      ]
+    },
+    {
+      "id": "pl",
+      "name": "Poland",
+      "stereotypes": [
+        "serious but warm",
+        "Catholic",
+        "historically resilient",
+        "hardworking"
+      ]
+    },
+    {
+      "id": "cz",
+      "name": "Czech Republic",
+      "stereotypes": [
+        "calm and intellectual",
+        "beer culture",
+        "Central European charm"
+      ]
+    },
+    {
+      "id": "ro",
+      "name": "Romania",
+      "stereotypes": [
+        "mysterious (Dracula stereotype)",
+        "traditional and rural",
+        "warm and emotional"
+      ]
+    },
+    {
+      "id": "hu",
+      "name": "Hungary",
+      "stereotypes": [
+        "intellectual",
+        "unique language",
+        "proud of history"
+      ]
+    }
+  ]
+}

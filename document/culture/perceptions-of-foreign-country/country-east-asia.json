@@ -1,0 +1,70 @@
+{
+  "slug": "japanese-perceptions-of-foreigners",
+  "section": "country",
+  "sector": {
+    "id": "east-asia",
+    "label": "East Asia"
+  },
+  "countries": [
+    {
+      "id": "cn",
+      "name": "China",
+      "stereotypes": [
+        "loud in public",
+        "fast-paced and energetic",
+        "not following local rules",
+        "leaving trash or not cleaning up",
+        "strong business mindset",
+        "group-oriented",
+        "emotionally expressive",
+        "nationalistic"
+      ],
+      "notes": "These stereotypes are influenced by tourism and media coverage."
+    },
+    {
+      "id": "kr",
+      "name": "Korea",
+      "stereotypes": [
+        "fashionable and appearance-conscious",
+        "emotional and expressive",
+        "family-oriented",
+        "competitive"
+      ],
+      "notes": "K-pop and Korean dramas shape much of this image."
+    },
+    {
+      "id": "tw",
+      "name": "Taiwan",
+      "stereotypes": [
+        "friendly and polite",
+        "Japan-friendly",
+        "calm and gentle",
+        "honest and warm",
+        "culturally similar to Japan"
+      ],
+      "notes": "This is based on positive tourism experiences and historical ties."
+    },
+    {
+      "id": "hk",
+      "name": "Hong Kong",
+      "stereotypes": [
+        "business-oriented",
+        "fast and efficient",
+        "multilingual",
+        "Western-influenced"
+      ]
+    },
+    {
+      "id": "mn",
+      "name": "Mongolia",
+      "stereotypes": [
+        "strong and tough",
+        "nomadic image",
+        "gers and Genghis Khan",
+        "sumo fighters with Mongolian roots",
+        "wide landscapes",
+        "horse culture"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "japanese-perceptions-of-foreigners",
+  "section": "country",
+  "sector": {
+    "id": "latin-america",
+    "label": "Latin America"
+  },
+  "countries": [
+    {
+      "id": "mx",
+      "name": "Mexico",
+      "stereotypes": [
+        "cheerful and expressive",
+        "love music and festivals",
+        "warm and family-oriented",
+        "Mafia and drug cartel associations"
+      ]
+    },
+    {
+      "id": "br",
+      "name": "Brazil",
+      "stereotypes": [
+        "energetic",
+        "football culture",
+        "expressive and friendly",
+        "diverse population",
+        "guns and crime associations"
+      ]
+    },
+    {
+      "id": "ar",
+      "name": "Argentina",
+      "stereotypes": [
+        "passionate",
+        "proud",
+        "love football and tango"
+      ]
+    }
+  ]
+}

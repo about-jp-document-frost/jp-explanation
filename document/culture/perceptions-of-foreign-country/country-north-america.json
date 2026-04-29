@@ -1,0 +1,32 @@
+{
+  "slug": "japanese-perceptions-of-foreigners",
+  "section": "country",
+  "sector": {
+    "id": "north-america",
+    "label": "North America"
+  },
+  "countries": [
+    {
+      "id": "us",
+      "name": "United States",
+      "stereotypes": [
+        "loud and expressive",
+        "confident and direct",
+        "individualistic",
+        "diverse",
+        "casual and friendly"
+      ],
+      "notes": "These come from Hollywood movies, American media, and anime portrayals."
+    },
+    {
+      "id": "ca",
+      "name": "Canada",
+      "stereotypes": [
+        "polite and calm",
+        "nature-loving",
+        "multicultural",
+        "friendly"
+      ]
+    }
+  ]
+}

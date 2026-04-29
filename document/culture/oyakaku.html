@@ -11,20 +11,7 @@
     <link rel="stylesheet" href="../../css/style.css" />
   </head>
   <body class="theme-culture">
-    <header class="site-header">
-      <div class="container nav">
-        <a class="brand" href="../../index.html">Japan Guide & Q&A</a>
-        <nav class="nav-links">
-          <a href="../../index.html">Home</a>
-          <a href="../../document/culture/index.html" class="is-current">Culture</a>
-          <a href="../../document/device/index.html">Device</a>
-          <a href="../../document/education/index.html">Education</a>
-          <a href="../../document/jp-learning/index.html">JP Learning</a>
-          <a href="../../document/life/index.html">Life</a>
-          <a href="../../document/work/index.html">Work</a>
-        </nav>
-      </div>
-    </header>
+    <div data-site-header></div>
 
     <main class="container">
       <section class="hero">
@@ -87,52 +74,60 @@
         <h2>Why Oyakaku Exists</h2>
         <p>There are several cultural and structural reasons behind this practice:</p>
 
-        <ul>
-          <li>
-            Japan remains a collectivist society where family opinions carry strong weight.
-            Parents often influence major life decisions, especially for young adults over 21.
-          </li>
+        <div class="info-grid">
+          <div class="mini-card">
+            <h3>Collectivist culture</h3>
+            <p>Japan remains a collectivist society where family opinions carry strong weight. Parents often influence major life decisions, especially for young adults over 21.</p>
+          </div>
+          <div class="mini-card">
+            <h3>Fear of early resignation</h3>
+            <p>
+              Companies fear resignations caused by parental disapproval. 
+              Some students even decline job offers because their parents disagree, 
+              so companies try to confirm family approval in advance.
 
-          <li>
-            Companies fear early resignations caused by parental disapproval.
-            Some students even decline job offers because their parents disagree, so companies
-            try to confirm family approval in advance.
-          </li>
+              Also, it can be difficult for companies to hire someone who may quit because of family pressure, 
+              especially in rural areas where job options are limited and relocation is common.
 
-          <li>
-            To avoid potential conflicts, some companies hold explanation sessions for parents,
-            or ask questions such as “How do your parents feel about this?” during interviews.
-            
-            In certain cases, applicants without parental approval are declined because
-            companies fear parental interference could escalate into legal trouble.  
+              That's why hirers want to ensure that the applicant has family support for the job, to avoid early resignations and maintain stability.
+              "What do your parents think about this job?" "Did you tell your parents about this job?" "Can we contact your parents to confirm?" are common questions during the hiring process.
 
-            These practices are discriminatory, but they still occur in some places.
-          </li>
+              So some people can be rejected in job interviews because their parents do not approve, even if they are qualified and want the job.
+            </p>
+          </div>
+          <div class="mini-card">
+            <h3>Discriminatory practices</h3>
+            <p>Some companies hold explanation sessions for parents, or ask "How do your parents feel about this?" during interviews. In certain cases, applicants without parental approval are declined. These practices are discriminatory, but they still occur in some places.</p>
+          </div>
+          <div class="mini-card">
+            <h3>Stronger in rural areas</h3>
+            <p>In rural areas, family ties and expectations tend to be even stronger, making parental involvement more common.</p>
+          </div>
+        </div>
 
-          <li>
-            In rural areas, family ties and expectations tend to be even stronger,
-            making parental involvement more common.
-          </li>
-        </ul>
-
-        <p class="highlight">
-          ※ I personally experienced this situation, and was declined in job interviews more than 50 times, so I have a strong
-          opinion about it.  
-          For more details, please refer to the following articles (Japanese only):
-        </p>
-
-        <p>
-          <a href="https://www.jiji.com/jc/v8?id=202407oyakaku-team" target="_blank">
-            「就活に親が参戦」は当たり前？◆広がるオヤカク、正しい距離感とは(Is it normal for parents to get involved in job hunting? The growing trend of Oyakaku and how to maintain the right distance)
-          </a><br>
-          <a href="https://ds-b.jp/dsmagazine/pages/498/" target="_blank">
-            オヤカクとは？ その意味と内定辞退率を下げるための対策・方法を解説(What is Oyakaku? Explanation of its meaning and measures to reduce the rate of job offer refusals)
-          </a>
-          <a href="https://www.neo-career.co.jp/humanresource/knowhow/b-contents-newgrad-oyakaku-181115/?utm_source=copilot.com" target="_blank">
-            新卒向けオヤカク対策ガイド(Guide to Oyakaku Measures for New Graduates)
-          </a>
-
-        </p>
+        <div class="callout">
+          <p>
+            <strong>&#x203b; Personal note:</strong> I personally experienced this situation, and was declined in job interviews more than 50 times, so I have a strong opinion about it.
+            For more details, please refer to the following articles (Japanese only):
+          </p>
+          <ul>
+            <li>
+              <a href="https://www.jiji.com/jc/v8?id=202407oyakaku-team" target="_blank">
+                「就活に親が参戦」は当たり前？◆広がるオヤカク、正しい距離感とは(Is it normal for parents to get involved in job hunting? The growing trend of Oyakaku and how to maintain the right distance)
+              </a>
+            </li>
+            <li>
+              <a href="https://ds-b.jp/dsmagazine/pages/498/" target="_blank">
+                オヤカクとは？ その意味と内定辞退率を下げるための対策・方法を解説(What is Oyakaku? Explanation of its meaning and measures to reduce the rate of job offer refusals)
+              </a>
+            </li>
+            <li>
+              <a href="https://www.neo-career.co.jp/humanresource/knowhow/b-contents-newgrad-oyakaku-181115/" target="_blank">
+                新卒向けオヤカク対策ガイド(Guide to Oyakaku Measures for New Graduates)
+              </a>
+            </li>
+          </ul>
+        </div>
 
         <p>
           Even though younger generations may find it outdated, the practice still exists
@@ -216,12 +211,11 @@
       </section>
     </main>
 
-        <footer class="site-footer">
-  <p>&copy; 2026 A frosty guy from Japan & Q&A. All rights reserved.</p>
-</footer>
+        <div data-site-footer></div>
     
 <!-- SIDEBAR_LOADER_START -->
 <script src="../../js/sidebar-data.js" defer></script>
+<script src="../../js/site-layout.js" defer></script>
 <script src="../../js/global-sidebar.js" defer></script>
 <!-- SIDEBAR_LOADER_END -->
 

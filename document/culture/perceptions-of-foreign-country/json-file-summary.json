@@ -1,0 +1,54 @@
+{
+  "slug": "japanese-perceptions-of-foreigners",
+  "section": "country",
+  "title": "Country-Specific Stereotypes Japanese People Often Have About Foreigners",
+  "language": "en",
+  "description": "Sector index for country-specific stereotype data.",
+  "notes": [
+    "These entries describe stereotypes, not facts.",
+    "They are simplified images and do not represent individuals.",
+    "Each sector has its own JSON file for easier editing."
+  ],
+  "sectors": [
+    {
+      "id": "east-asia",
+      "label": "East Asia",
+      "file": "./country-east-asia.json"
+    },
+    {
+      "id": "southeast-asia",
+      "label": "Southeast Asia",
+      "file": "./country-southeast-asia.json"
+    },
+    {
+      "id": "south-asia",
+      "label": "South Asia",
+      "file": "./country-south-asia.json"
+    },
+    {
+      "id": "middle-eastern",
+      "label": "Middle Eastern",
+      "file": "./country-middle-eastern.json"
+    },
+    {
+      "id": "eu",
+      "label": "Europe",
+      "file": "./country-eu.json"
+    },
+    {
+      "id": "north-america",
+      "label": "North America",
+      "file": "./country-north-america.json"
+    },
+    {
+      "id": "latin-america",
+      "label": "Latin America",
+      "file": "./country-latin-america.json"
+    },
+    {
+      "id": "africa",
+      "label": "Africa",
+      "file": "./country-africa.json"
+    }
+  ]
+}

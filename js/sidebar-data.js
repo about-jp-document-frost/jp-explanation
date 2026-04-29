@@ -52,7 +52,9 @@ window.SIDEBAR_CONFIG = {
         ["document/life/foreign.html", "Overseas Travel"],
         ["document/life/investment.html", "Investment"],
         ["document/life/living-in-japan-with-limited-japanese.html", "Limited Japanese"],
-        ["document/life/quiet-areas-near-tokyo.html", "Quiet Areas Near Tokyo"]
+        ["document/life/rubbish-disposal.html", "Garbage Disposal"],
+        ["document/life/quiet-areas-near-tokyo.html", "Quiet Areas Near Tokyo"],
+        ["document/life/rent-rooms.html", "Renting Rooms"]
       ]
     },
     {

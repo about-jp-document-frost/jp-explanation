@@ -11,20 +11,7 @@
     <link rel="stylesheet" href="../../css/style.css" />
   </head>
   <body class="theme-work">
-    <header class="site-header">
-      <div class="container nav">
-        <a class="brand" href="../../index.html">Japan Guide & Q&A</a>
-        <nav class="nav-links">
-          <a href="../../index.html">Home</a>
-          <a href="../../document/culture/index.html">Culture</a>
-          <a href="../../document/device/index.html">Device</a>
-          <a href="../../document/education/index.html">Education</a>
-          <a href="../../document/jp-learning/index.html">JP Learning</a>
-          <a href="../../document/life/index.html">Life</a>
-          <a href="../../document/work/index.html" class="is-current">Work</a>
-        </nav>
-      </div>
-    </header>
+    <div data-site-header></div>
 
     <main class="container">
       <section class="hero">
@@ -113,6 +100,8 @@
           placing workers at client offices instead of hiring them directly into a single fixed team.
           This makes it easier for companies to reassign or let go of people who do not fit well with a project,
           and it also exposes employees to a variety of environments and technologies.
+
+          Most of workers in IT industry in Japan are working in such SES-style companies (about 80-90%), and they are dispatched to client companies, even biggest companies in Japan.
         </p>
       </section>
 
@@ -158,13 +147,12 @@
       </section>
     </main>
 
-        <footer class="site-footer">
-  <p>&copy; 2026 A frosty guy from Japan & Q&A. All rights reserved.</p>
-</footer>
+        <div data-site-footer></div>
 
     <!-- SIDEBAR_LOADER_START -->
     <script src="../../js/sidebar-data.js" defer></script>
-    <script src="../../js/global-sidebar.js" defer></script>
+    <script src="../../js/site-layout.js" defer></script>
+<script src="../../js/global-sidebar.js" defer></script>
     <!-- SIDEBAR_LOADER_END -->
   </body>
 </html>

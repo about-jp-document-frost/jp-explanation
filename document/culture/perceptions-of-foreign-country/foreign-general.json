@@ -1,0 +1,106 @@
+{
+  "slug": "japanese-perceptions-of-foreigners",
+  "section": "general",
+  "title": "General Stereotypes Japanese People Often Have About Foreigners",
+  "language": "en",
+  "description": "General, non-country-specific stereotypes that Japanese people may hold about foreigners.",
+  "notes": [
+    "These entries describe stereotypes, not facts.",
+    "They are simplified images and do not represent individuals.",
+    "They are included as cultural perceptions for explanation purposes."
+  ],
+  "summary": "Japanese people may form stereotypes about foreigners because interaction is still limited for many people, and impressions are often shaped by contrast, media, and simplified cultural images.",
+  "atAGlance": [
+    {
+      "id": "loud-expressive",
+      "label": "Loud and expressive",
+      "summary": "Foreigners are often seen as speaking loudly and showing emotions openly."
+    },
+    {
+      "id": "confident-direct",
+      "label": "Confident and direct",
+      "summary": "Strong opinions and self-expression may be interpreted as assertiveness or confidence."
+    },
+    {
+      "id": "unfamiliar-with-manners",
+      "label": "Unfamiliar with manners",
+      "summary": "Many Japanese people assume foreigners struggle with unspoken social rules."
+    },
+    {
+      "id": "non-japanese-speakers",
+      "label": "Non-Japanese speakers",
+      "summary": "Even long-term residents are often assumed to have little or no Japanese ability."
+    }
+  ],
+  "stereotypes": [
+    {
+      "id": "foreigners-are-loud-and-expressive",
+      "title": "Foreigners are loud and expressive",
+      "details": "Many Japanese people believe that Westerners, especially from Europe or North America, speak loudly, use big gestures, and express emotions more openly. This comes from the contrast with Japanese communication norms, where people avoid standing out and try not to disturb the group."
+    },
+    {
+      "id": "foreigners-are-confident-and-assertive",
+      "title": "Foreigners are confident and assertive",
+      "details": "Japanese culture values modesty and indirect communication. Because of this, direct opinions or strong self-expression can be interpreted as confidence or sometimes as aggressiveness."
+    },
+    {
+      "id": "foreigners-do-not-understand-japanese-manners",
+      "title": "Foreigners do not understand Japanese manners",
+      "details": "There is a stereotype that foreigners struggle with reading the atmosphere, following unspoken rules, using bows or polite language, and staying quiet in public spaces. This comes from the fact that Japanese social norms are subtle and context-dependent.",
+      "examples": [
+        "reading the atmosphere",
+        "following unspoken rules",
+        "bowing or polite language",
+        "quietness in public spaces"
+      ]
+    },
+    {
+      "id": "westerners-are-physically-attractive",
+      "title": "Westerners are physically attractive",
+      "details": "Some Japanese people idealize Western appearance such as height, sharp facial features, or light-colored eyes. This can create admiration, but also insecurity or distance."
+    },
+    {
+      "id": "foreigners-are-too-friendly-and-open-minded",
+      "title": "Foreigners are too friendly and open-minded",
+      "details": "This is a positive stereotype, but still a stereotype. Japanese people may assume foreigners enjoy casual conversation, are easy to approach, and do not mind direct questions."
+    },
+    {
+      "id": "foreigners-do-not-speak-japanese",
+      "title": "Foreigners do not speak Japanese at all",
+      "details": "Even when foreigners live in Japan for years, many Japanese people assume they cannot speak the language. This stereotype is reinforced by media and by the fact that many daily interactions with foreigners happen in English."
+    },
+    {
+      "id": "foreigners-prefer-individualism-over-group-harmony",
+      "title": "Foreigners prefer individualism over group harmony",
+      "details": "Because Japan is strongly group-oriented, Japanese people often assume foreigners prioritize personal freedom, self-expression, and independence. This may fit some cultures, but not all.",
+      "examples": [
+        "personal freedom",
+        "self-expression",
+        "independence"
+      ]
+    }
+  ],
+  "whyTheseStereotypesExist": [
+    {
+      "factor": "limited-exposure",
+      "title": "Limited exposure",
+      "details": "Many Japanese people rarely interact deeply with foreigners."
+    },
+    {
+      "factor": "cultural-contrast",
+      "title": "Cultural contrast",
+      "details": "Japanese communication norms differ sharply from Western or Asian norms."
+    },
+    {
+      "factor": "media-influence",
+      "title": "Media influence",
+      "details": "TV, anime, and simplified cultural images shape expectations, just as foreigners often have simplified images of Japan."
+    }
+  ],
+  "howForeignersMayFeel": [
+    "felt like not fully understood or seen as individuals",
+    "misunderstood",
+    "admired in a way that feels distant",
+    "stereotyped as loud, confident, or non-Japanese"
+  ]
+}

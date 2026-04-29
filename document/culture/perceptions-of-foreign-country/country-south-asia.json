@@ -1,0 +1,98 @@
+{
+  "slug": "japanese-perceptions-of-foreigners",
+  "section": "country",
+  "sector": {
+    "id": "south-asia",
+    "label": "South Asia"
+  },
+  "countries": [
+    {
+      "id": "in",
+      "name": "India",
+      "stereotypes": [
+        "speak English with a strong accent",
+        "good at IT and mathematics",
+        "curry and spicy food",
+        "talk fast",
+        "caste system and social hierarchy",
+        "chaos and crowded cities",
+        "dirtiness and pollution",
+        "less strict about hygiene in some regions",
+        "not trustworthy and prone to scams",
+        "fraud on the internet"
+      ],
+      "notes": "These impressions come from tech industry exposure and media representation."
+    },
+    {
+      "id": "pk",
+      "name": "Pakistan",
+      "stereotypes": [
+        "strong religious identity",
+        "family-oriented",
+        "hospitable",
+        "resilient",
+        "not trustworthy and prone to scams",
+        "fraud on the internet"
+      ],
+      "notes": "These impressions often come from sports coverage and limited international news exposure."
+    },
+    {
+      "id": "bd",
+      "name": "Bangladesh",
+      "stereotypes": [
+        "handwork in factories",
+        "garment industry image",
+        "community-oriented",
+        "not trustworthy and prone to scams",
+        "fraud on the internet"
+      ],
+      "notes": "These impressions are shaped by labor and manufacturing narratives in regional media."
+    },
+    {
+      "id": "lk",
+      "name": "Sri Lanka",
+      "stereotypes": [
+        "tea-producing country",
+        "gentle and warm",
+        "tourism-oriented",
+        "calm island lifestyle",
+        "Buddhist cultural ties",
+        "Hindu religious influence",
+        "elephant symbolism(Ganesha)"
+      ],
+      "notes": "These impressions are influenced by travel media and cultural proximity through Buddhism."
+    },
+    {
+      "id": "np",
+      "name": "Nepal",
+      "stereotypes": [
+        "Himalayas and mountaineering",
+        "spiritual image",
+        "close-knit communities",
+        "India and Nepal curry"
+      ],
+      "notes": "These impressions are strongly connected to mountain culture and trekking imagery."
+    },
+    {
+      "id": "bt",
+      "name": "Bhutan",
+      "stereotypes": [
+        "happiness-focused society",
+        "peaceful",
+        "Buddhist cultural ties",
+        "traditional lifestyle",
+        "small but unique",
+        "Japanese royal family and Bhutanese King friendship"
+      ],
+      "notes": "These impressions often come from international reporting on Gross National Happiness."
+    },
+    {
+      "id": "mv",
+      "name": "Maldives",
+      "stereotypes": [
+        "small island nation"
+      ],
+      "notes": "These impressions are shaped mostly by honeymoon and travel promotion content."
+    }
+  ]
+}

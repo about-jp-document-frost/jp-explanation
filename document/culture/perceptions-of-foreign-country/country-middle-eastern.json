@@ -1,0 +1,30 @@
+{
+  "slug": "japanese-perceptions-of-foreigners",
+  "section": "country",
+  "sector": {
+    "id": "middle-eastern",
+    "label": "Middle Eastern"
+  },
+  "countries": [
+    {
+      "id": "tr",
+      "name": "Turkey",
+      "stereotypes": [
+        "hospitable",
+        "mix of Europe and Asia",
+        "strong national identity",
+        "Japan lover (due to historical ties)"
+      ]
+    },
+    {
+      "id": "sa",
+      "name": "Saudi Arabia",
+      "stereotypes": [
+        "wealthy",
+        "strict Islamic culture",
+        "desert and oil",
+        "gender-segregated society"
+      ]
+    }
+  ]
+}
