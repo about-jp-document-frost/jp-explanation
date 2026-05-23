@@ -1,0 +1,80 @@
+:root {
+  --bg: #f5f5f5;
+  --surface: rgba(255, 255, 255, 0.95);
+  --surface-strong: #ffffff;
+  --text: #111111;
+  --muted: #333333;
+  --primary: #d7263d;
+  --secondary: #1b57d5;
+  --accent: #1a6b9a;
+  --border: #d9e3f0;
+  --shadow: 0 14px 32px rgba(15, 23, 42, 0.08);
+  --shadow-hover: 0 18px 38px rgba(15, 23, 42, 0.12);
+  --theme-primary: #d7263d;
+  --theme-secondary: #1b57d5;
+  --theme-soft: #fff1f2;
+  --theme-glow: rgba(27, 87, 213, 0.18);
+}
+
+/* ===== DARK MODE ===== */
+html.dark {
+  --bg: #1e1e1e;
+  --surface: rgba(42, 42, 42, 0.97);
+  --surface-strong: #2a2a2a;
+  --text: #ffffff;
+  --muted: #999999;
+  --border: #3a3a3a;
+  --accent: #4da3ff;
+  --secondary: #4da3ff;
+  --shadow: 0 14px 32px rgba(0, 0, 0, 0.4);
+  --shadow-hover: 0 18px 38px rgba(0, 0, 0, 0.5);
+}
+
+html.dark body {
+  background: #1e1e1e;
+  color: var(--text);
+}
+
+html.dark .site-header {
+  background: rgba(30, 30, 30, 0.97);
+  border-bottom-color: #3a3a3a;
+}
+
+html.dark .button.secondary {
+  background: rgba(30, 37, 48, 0.95);
+  color: var(--text);
+  border-color: var(--border);
+}
+
+html.dark .mini-card {
+  background: linear-gradient(180deg, rgba(22, 27, 34, 0.8) 0%, rgba(13, 17, 23, 0.8) 100%);
+}
+
+html.dark .callout {
+  background: rgba(22, 27, 34, 0.6);
+}
+
+html.dark .callout.warning {
+  border-left-color: #e07b39;
+  background: rgba(60, 30, 10, 0.55);
+
+  font: 1.1em/1.6 "Segoe UI", "Hiragino Sans", "Yu Gothic UI", sans-serif;
+}
+
+html.dark .category-card.cat-culture    { background: linear-gradient(180deg, #1e1015 0%, var(--surface) 55%); }
+html.dark .category-card.cat-life       { background: linear-gradient(180deg, #0e1a16 0%, var(--surface) 55%); }
+html.dark .category-card.cat-work       { background: linear-gradient(180deg, #0e1624 0%, var(--surface) 55%); }
+html.dark .category-card.cat-education  { background: linear-gradient(180deg, #16101e 0%, var(--surface) 55%); }
+html.dark .category-card.cat-jp-learning { background: linear-gradient(180deg, #1e1208 0%, var(--surface) 55%); }
+
+/* Dark mode: text & heading contrast fixes */
+html.dark h1,
+html.dark h2,
+html.dark h3 {
+  color: var(--text);
+}
+
+html.dark body[class*="theme-"] .card h2,
+html.dark body[class*="theme-"] .card h3 {
+  color: var(--text);
+}

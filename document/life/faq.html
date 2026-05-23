@@ -13,7 +13,7 @@
   <body class="theme-life">
     <div data-site-header></div>
 
-    <main class="container">
+    <main class="container faq-page">
       <div
         data-site-hero
         data-hero-title="FAQ About Daily Life in Japan"
@@ -22,35 +22,81 @@
         data-sidebar-label="FAQ"
       ></div>
 
-      <section class="section card">
+      <section class="section card faq-section">
         <h2>Frequently Asked Questions</h2>
-        <ol class="qa-list">
-          <li><strong>Q. Do trains usually run on time?</strong><br />
-            A. Many train lines in Japan are very punctual, but of course delays can happen during rush hour or bad weather.
-            In regions such as Hokuriku, snow can cause frequent delays or cancellations.
-            In some situations, passengers may not be able to leave the train immediately, and delays of 30 minutes to over an hour can happen.
-          </li>
-          
-          <li><strong>Q. Is cash still necessary?</strong><br />
-            A. Cashless payment is becoming more common in urban areas, but many shops still accept cash only, so it is a good idea to carry some cash.
-            In rural areas, cash is still the main method of payment, and depending on the region, you may need it quite often.
+        <div class="faq-accordion" role="list">
+          <details class="faq-item" role="listitem">
+            <summary>
+              <span class="faq-icon" aria-hidden="true">❓</span>
+              <span class="faq-question"><span class="faq-q-label">Q.</span> Do trains usually run on time?</span>
+            </summary>
+            <div class="faq-answer-wrap">
+              <div class="faq-answer-block answer-info">
+                <span class="faq-answer-icon" aria-hidden="true">💬</span>
+                <div class="faq-answer-content">
+                  <p class="faq-answer-paragraph"><span class="faq-a-label">A.</span> Most train lines are punctual.</p>
+                  <p class="faq-answer-paragraph">Delays can still happen during rush hour, bad weather, or heavy snow in regions such as Hokuriku.</p>
+                  <p class="faq-answer-paragraph note"><span class="faq-note-label"><span aria-hidden="true">⚠️</span> Note:</span> In some cases, delays may last from about 30 minutes to over an hour.</p>
+                </div>
+              </div>
+              <p class="faq-more"><a href="train.html" class="button secondary faq-link">Learn more</a></p>
+            </div>
+          </details>
 
-            <p>
-              <a href="credit-card.html" class="button secondary">Learn more about credit card usage</a>
-            </p>
-          </li>
+          <details class="faq-item" role="listitem">
+            <summary>
+              <span class="faq-icon" aria-hidden="true">❓</span>
+              <span class="faq-question"><span class="faq-q-label">Q.</span> Is cash still necessary?</span>
+            </summary>
+            <div class="faq-answer-wrap">
+              <div class="faq-answer-block answer-tip">
+                <span class="faq-answer-icon" aria-hidden="true">📌</span>
+                <div class="faq-answer-content">
+                  <p class="faq-answer-paragraph"><span class="faq-a-label">A.</span> Cashless payment is growing, especially in Tokyo, Osaka, and other major cities.</p>
+                  <p class="faq-answer-paragraph">However, some shops in these cities are still cash-only.</p>
+                  <p class="faq-answer-paragraph note"><span class="faq-note-label"><span aria-hidden="true">⚠️</span> Note:</span> In most rural areas, cash is essential, so having cash on hand is necessary.</p>
+                </div>
+              </div>
+              <p class="faq-more"><a href="credit-card.html" class="button secondary faq-link">Learn more</a></p>
+            </div>
+          </details>
 
-          <li><strong>Q. How should I take out the garbage?</strong><br />
-            A. Garbage separation rules and collection days differ by area, so you should always check your local municipality’s instructions.
-            In some apartment buildings, there may even be fines for taking out the garbage at night, so it is important to follow the rules carefully.
-          </li>
-          
-          <li>
-            <strong>Q. What are the emergency phone numbers?</strong>
-            <br />
-            A. The police number is 110, and the emergency/fire number is 119.
-          </li>
-        </ol>
+          <details class="faq-item" role="listitem">
+            <summary>
+              <span class="faq-icon" aria-hidden="true">❓</span>
+              <span class="faq-question"><span class="faq-q-label">Q.</span> How should I take out the garbage?</span>
+            </summary>
+            <div class="faq-answer-wrap">
+              <div class="faq-answer-block answer-tip">
+                <span class="faq-answer-icon" aria-hidden="true">📌</span>
+                <div class="faq-answer-content">
+                  <p class="faq-answer-paragraph"><span class="faq-a-label">A.</span> Garbage rules and collection days differ by area.</p>
+                  <p class="faq-answer-paragraph">Always check your local municipality or apartment guidance.</p>
+                  <p class="faq-answer-paragraph note"><span class="faq-note-label"><span aria-hidden="true">⚠️</span> Note:</span> Some buildings may penalize late-night disposal, so timing matters.</p>
+                </div>
+              </div>
+              <p class="faq-more"><a href="rubbish-disposal.html" class="button secondary faq-link">Learn more</a></p>
+            </div>
+          </details>
+
+          <details class="faq-item" role="listitem">
+            <summary>
+              <span class="faq-icon" aria-hidden="true">❓</span>
+              <span class="faq-question"><span class="faq-q-label">Q.</span> What are the emergency phone numbers?</span>
+            </summary>
+            <div class="faq-answer-wrap">
+              <div class="faq-answer-block answer-warning">
+                <span class="faq-answer-icon" aria-hidden="true">🚨</span>
+                <div class="faq-answer-content">
+                  <p class="faq-answer-paragraph"><span class="faq-a-label">A.</span> Police: 110.</p>
+                  <p class="faq-answer-paragraph">Fire and ambulance: 119.</p>
+                  <p class="faq-answer-paragraph note"><span class="faq-note-label"><span aria-hidden="true">⚠️</span> Note:</span> Save these numbers in your phone in advance.</p>
+                </div>
+              </div>
+              <p class="faq-more"><a href="index.html" class="button secondary faq-link">Learn more</a></p>
+            </div>
+          </details>
+        </div>
       </section>
     </main>
 
